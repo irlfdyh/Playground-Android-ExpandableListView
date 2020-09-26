@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import android.widget.BaseExpandableListAdapter
 import android.widget.TextView
 
-class CustomExpandableListAdapter internal constructor(
+class CustomExpandableListAdapter constructor(
     private val context: Context,
     private val titleList: List<String>,
     private val dataList: HashMap<String, List<String>>
